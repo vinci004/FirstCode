@@ -1,0 +1,133 @@
+html, body {
+    margin     : 0 ;
+    padding    : 0 ;
+}
+
+#entete { /* Cadre d'en-t??te */
+    width            : 100% ; /* Doit occuper toute la largeur */
+    text-align       : center ;
+    background-color : navy ;
+}
+
+#contenu-entete { /* Partie contenant les informations de l'en-t??te */
+    width        : 750px ; /* Largeur fixe */
+    height       : 150px ; /* heuteur fixe */
+    padding-top  : 80px ; /* Marge interne */
+    margin-left  : auto ; /* Pour permettre le centrage */
+    margin-right : auto ; /* Pour permettre le centrage */
+    text-align   : left ;
+    color        : white ;
+}
+
+#contenu-entete p {
+    margin-left : 140px ;
+    color       : silver ;
+}
+
+#corps { /* Contenu de la page */
+    width      : 100% ; /* Doit occuper toute la largeur possible */
+    text-align : center ;
+    margin     : 0 ;
+    padding    : 0 ;
+}
+
+#contenu-corps { /* Contenu du site ?  largeur fixe */
+    width        : 750px ; /* Largeur fixe */
+    margin-left  : auto ; /* Pour permettre le centrage */
+    margin-right : auto ; /* Pour permettre le centrage */
+    text-align   : left ;
+}
+
+#photo { /* Photo */
+    position : relative ; /* Position relative ?  sa position normale */
+    left     : 596px ; /* Largeur du conteneur contenu-corps (750px) - largeur de l'image (154px) */
+    top      : -154px ; /* Remonter de la hauteur de l'image */
+}
+
+h1 {
+    margin    : 0 ;
+    padding   : 0 ;
+    font-size : 2.5em ;
+    color     : white ;
+}
+
+h2 {
+    margin        : 0 ;
+    padding       : 0 ;
+    font-size     : 20px ;
+    color         : black ;
+    margin-top    : 20px ;
+    margin-bottom : 15px ;
+    border-bottom : solid 1px navy ;
+}
+
+#corps p { /* Les paragraphes dans le conteneur "corps" */
+    padding-left : 15px ;
+    text-align   : justify ;
+}
+
+#corps p:first-letter { /* Premi?¨res lettres des paragraphes */
+    padding-left : 2.5em ;
+}
+
+#corps p.premier:first-letter { /* Premi?¨res lettres des paragraphes de la classe "premier" */
+    font-size        : 2.5em ;
+    color            : white ;
+    background-color : navy ;
+    padding          : 5px ;
+    float            : left ;
+    display          : block ;
+}
+
+#menu { /* Menu */
+    float       : left ;
+    width       : 150px ; 
+    padding-top : 20px ;
+}
+
+.onglet { /* Les ?©l?©ments du menu */
+    width         : 130px ; 
+    height        : 22px ;
+    margin-bottom : 8px ;
+}
+
+.onglet a { /* Les liens du menu */
+    display          : block ; /* Affichage sous forme de bloc */
+    width            : 130px ;
+    height           : 22px ;
+    line-height      : 22px ;
+    color            : navy ;
+    background-color : silver ;
+    text-decoration  : none ;
+    padding-left     : 1em ;
+}
+
+.onglet a:hover { /* Les liens du menu lorsqu'ils sont survol?©s */
+    color            : white ;
+    background-color : navy ;
+    font-weight      : bold ;
+}
+
+#page { /* Contenu r?©el de la page (hors menu) */
+    float : left ; /* G?©n?©ration d'une bo?®te flottante */
+    width : 600px ; /* Largeur fixe */
+}
+/*
+#valide {
+    padding-top : 30px ;
+    text-align  : right ;
+    clear       : both ;
+}
+
+#valide a {
+    margin-top   : 10px ;
+    margin-right : 10px ;
+}
+
+#valide a img {
+    border : solid 2px white ;
+}
+
+#valide a:hover img {
+    border-color : navy ;
+}*/

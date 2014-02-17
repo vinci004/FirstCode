@@ -1,0 +1,40 @@
+#box1 {
+		position:absolute;
+		top: 50px;
+		left: 50px;
+		background-color : red; 
+	}
+
+	#box2 {
+		position:absolute;
+		top: 50px;
+		right: 50px;
+		background-color : yellow; 
+	}
+
+	#box3 {
+		position:absolute;
+		bottom: 50px;
+		right: 50px;
+		background-color : green; 
+	}
+
+	#box4 {
+		position:absolute;
+		bottom: 50px;
+		left: 50px;
+		background-color : blue; 
+	}
+	
+.bleu {
+			border: solid 1px black;
+			background-color: blue;
+			position : absolute;
+			left : 10px; width: 40px; 
+		}
+.rouge {
+			border: solid 1px black;
+			background-color: red;
+			margin-left : 60px;
+		}
+	

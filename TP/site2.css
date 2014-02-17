@@ -1,0 +1,149 @@
+html, body {
+    margin           : 0 ;
+    padding          : 0 ;
+    color            : silver ;
+    background-color : black ;
+    font-family      : Arial ;
+}
+
+#entete { /* Cadre d'en-t??te */
+    width            : 750px ; /* Doit occuper toute la largeur */
+    text-align       : center ;
+    background-color : rgb(70, 130, 180) ;
+    margin-left      : auto ;
+    margin-right     : auto ;
+}
+
+#contenu-entete { /* Partie contenant les informations de l'en-t??te */
+    width        : 750px ; /* Largeur fixe */
+    height       : 155px ; /* heuteur fixe */
+    padding-top  : 80px ; /* Marge interne */
+    margin-left  : auto ; /* Pour permettre le centrage */
+    margin-right : auto ; /* Pour permettre le centrage */
+    text-align   : left ;
+    color        : white ;
+}
+
+#contenu-entete p {
+    margin-right : 150px ;
+    color        : silver ;
+    text-align   : right ;
+    text-shadow  : 0.1em 0.08em 0.1em black ; /* Ombrage, sauf sur I.E. */
+}
+
+#corps { /* Contenu de la page */
+    width      : 100% ; /* Doit occuper toute la largeur possible */
+    text-align : center ;
+    margin : 0 ;
+    padding : 0 ;
+}
+
+#contenu-corps { /* Contenu du site ?  largeur fixe */
+    width        : 750px ; /* Largeur fixe */
+    margin-left  : auto ; /* Pour permettre le centrage */
+    margin-right : auto ; /* Pour permettre le centrage */
+    text-align   : left ;
+}
+
+#photo { /* Photo */
+    position : relative ; /* Position relative ?  sa position normale */
+    left     : 15px ; /* Largeur du conteneur centre-contenu (750px) - largeur de l'image (154px) */
+    top      : -164px ; /* Remonter de la hauteur de l'image */
+    border   : solid 10px white ;
+}
+
+h1 {
+    margin       : 0 ;
+    padding      : 0 ;
+    text-align   : right ;
+    margin-right : 150px ;
+    font-size    : 2.5em ;
+    color        : white ;
+    font-variant : small-caps ;
+    text-shadow  : 0.1em 0.08em 0.1em black ; /* Ombrage, sauf sur I.E. */
+}
+
+h2 {
+    float            : right ;
+    font-size        : 1.3em ;
+    line-height      : 2.0em ;
+    margin           : 0 ;
+    padding          : 0 ;
+    padding-right    : 15px ;
+    width            : 200px ;
+    height           : 1.9em ;
+    color            : white ;
+    background-color : rgb(70, 130, 180) ;
+    margin-top       : 5px ;
+    text-align       : right ;
+    text-shadow      : 0.1em 0.08em 0.1em black ; /* Ombrage, sauf sur I.E. */
+}
+
+#corps p { /* Les paragraphes dans le conteneur "corps" */
+    text-align : justify ;
+    clear      : both ; /* Se placer sous la bo?®te flottante h2 qui pr?©c?¨de */
+}
+
+#corps p:first-letter { /* Premi?¨res lettres des paragraphes */
+    padding-left : 2.5em ;
+    font-size    : 120% ;
+}
+
+#corps p.premier { /* Paragraphes de la classe "premier" */
+    border-top : dashed 2px rgb(70, 130, 180) ;
+    position   : relative ;
+    top        : -2px ; /* Remonter de 2px pour "cacher une partie du trait sour le titre H1 */
+}
+
+#menu { /* Menu */
+    margin-top : 5px ; /* Un peu d'espace au-dessus */
+}
+
+.onglet { /* Les ?©l?©ments du menu */
+    display       : inline ; /* Affichage en ligne */
+    text-align    : center ;
+}
+
+.onglet a { /* Les liens du menu */
+    display          : block ; /* Affichage sous forme de bloc */
+    float            : left ;
+    width            : 150px ;
+    height           : 30px ;
+    line-height      : 30px ;
+    color            : black ;
+    background-color : silver ;
+    text-decoration  : none ;
+    font-weight      : bold ;
+    text-shadow      : 0.1em 0.08em 0.1em rgb(70, 130, 180) ; /* Ombrage, sauf sur I.E. */
+}
+
+.onglet a:hover { /* Les liens du menu lorsqu'ils sont survol?©s */
+    color            : white ;
+    background-color : rgb(70, 130, 180) ;
+    text-shadow      : 0.1em 0.08em 0.1em black ; /* Ombrage, sauf sur I.E. */
+}
+
+#page { /* Contenu r?©el de la page (hors menu) */
+    float : left ; /* G?©n?©ration d'une bo?®te flottante */
+    width : 100% ;
+}
+/*
+#valide {
+    position    : absolute ; 
+    top         : 15px ;
+    margin-left : 525px ;
+    white-space : nowrap ; 
+}
+
+#valide a {
+    margin-right : 5px ;
+}
+
+#valide a img {
+    border  : solid 2px rgb(70, 130, 180) ;
+    padding : 2px ;
+}
+
+#valide a:hover img {
+    border-color : white ;
+}*/
